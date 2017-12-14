@@ -1,0 +1,48 @@
+p {
+    font-family: Helvetica;
+}
+h1 {
+    background-color: lightblue;
+    font-size: 30pt; 
+    margin: 10px 100px 10px 200px;  
+    border: Solid, 5px;
+    border-color: darkblue;
+    font-family: Lucida Sans;
+    text-align: center;
+}
+body {
+    background-color: rgb(248, 238, 238);
+    font-size: 12pt;
+    padding: 10px;
+}    
+div{
+    float:left;
+    margin-right:5px;
+}
+.images {
+    font-family: Arial;
+    color: darkblue;
+}    
+div img {
+    height:300px;
+    width:460px;
+    margin: 0px 10px 0px 10px;
+    border: 3px solid black;
+    font-family: Arial;
+}
+div p {
+    font-family: cursive;
+}
+article { 
+    display: block;
+}
+#reference {
+    font-family: Verdana; 
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+footer {
+    font-family: Arial;
+}
