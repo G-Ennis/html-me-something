@@ -1,51 +1,40 @@
-p {
-    font-family: Helvetica;
-}
-h1 {
-    background-color: lightblue;
-    font-size: 30pt; 
-    margin: 10px 100px 10px 100px;  
-    padding: 10px 5px 10px 5px;
-    font-family: Lucida Sans;
+.header {
+    font-size: 40pt; 
+    font-family: 'Lucida Sans';
     text-align: center;
-}
-h1 span{
-    border: solid, 5px;
-    padding: 10px;
-    
+    color: rgb(8, 8, 104);
 }
 body {
-    background-color: rgb(248, 238, 238);
+    font-family: Lucida Sans;
     font-size: 12pt;
+    margin: 100px;
+    background-image: url('images/hello.jpg');
 }    
-div{
-    float:left;
-    margin-right:5px;
+main {
+    background: rgb(245, 245, 245);
+    margin: 20px;
+    padding: 50px 50px 15px 50px;
 }
-.images {
-    font-family: Arial;
-    color: rgb(10, 10, 168);
+div {
+    text-align: center;
+    padding-bottom: 50px;
 }    
 div img {
-    height:300px;
-    width:460px;
-    margin: 0px 5px 0px 5px;
-    border: 3px solid black;
-    font-family: Arial;
-}
-div p {
-    font-family: cursive;
+    height: 400px;
+    width: 600px;
+    margin-top: 20px;
 }
 article { 
-    display: block;
+   text-align: left;
 }
 #reference {
     font-family: Verdana; 
 }
 a {
     text-decoration: none;
-    color: rgb(212, 32, 32);
+    color: rgb(12, 12, 151);
 }
 footer {
-    font-family: Arial;
-}
+    font-style: italic;
+    padding-top: 50px; 
+}     
