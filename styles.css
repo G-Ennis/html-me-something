@@ -15,14 +15,15 @@ main {
     margin: 20px;
     padding: 50px 50px 15px 50px;
 }
-div {
+.image{
     text-align: center;
-    padding-bottom: 50px;
-}    
-div img {
+    font-style: italic;
+}
+.image img{ 
     height: 400px;
     width: 600px;
-    margin-top: 20px;
+    text-align:center; 
+    margin:0 auto;
 }
 article { 
    text-align: left;
